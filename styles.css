@@ -51,3 +51,16 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+
+footer {
+  background-color: grey;
+  margin: auto;
+  position: fixed;
+  bottom: 0%;
+  left: 0%;
+  width: 100%;
+
+  a {
+    color: #011F3F;
+  }
+}
