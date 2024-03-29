@@ -156,7 +156,7 @@ else {
 
 function gameOver() {
     let audio = new Audio('./sounds/wrong.mp3')
-    audio.play()
+    audio.play();
     $('body').addClass("game-over");
     setInterval(() => {
         $('body').removeClass("game-over");
